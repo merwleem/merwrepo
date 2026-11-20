@@ -5,7 +5,7 @@ Codename: stable
 Architectures: iphoneos-arm
 Components: main
 Description: merwrepo - Sileo and Cydia source
-Date: Fri, 20 Nov 2026 13:27:21 UTC
+Date: Fri, 20 Nov 2026 13:29:03 UTC
 MD5Sum:
   e570945dd06fd290787651278693d4ac 531 Packages
   1dc6f44a62eaa7c112e6c9c6b5fae98d 383 Packages.gz
@@ -14,6 +14,9 @@ MD5Sum:
   25e6c7acdbf9ed537739cf8f5f005880 9836 CydiaIcon.png
   1d914707e9a2d4b33988325ef826d6ae 37442 CydiaIcon@2x.png
   d4e5dac20c8cacd91b61390cd3d4bfa1 86508 CydiaIcon@3x.png
+  25e6c7acdbf9ed537739cf8f5f005880 9836 icon.png
+  1d914707e9a2d4b33988325ef826d6ae 37442 icon@2x.png
+  d4e5dac20c8cacd91b61390cd3d4bfa1 86508 icon@3x.png
   25e6c7acdbf9ed537739cf8f5f005880 9836 Assets/icon.png
   1d914707e9a2d4b33988325ef826d6ae 37442 Assets/icon@2x.png
   d4e5dac20c8cacd91b61390cd3d4bfa1 86508 Assets/icon@3x.png
@@ -25,6 +28,9 @@ SHA1:
   6480cfd871b4e62d06d2ae6534e5c38cd51d6b88 9836 CydiaIcon.png
   e49ca25a37af44fdebbc0151a9c1d2ab093fe612 37442 CydiaIcon@2x.png
   6390c68b89d5a1b51a1384c5944572e93ca43eba 86508 CydiaIcon@3x.png
+  6480cfd871b4e62d06d2ae6534e5c38cd51d6b88 9836 icon.png
+  e49ca25a37af44fdebbc0151a9c1d2ab093fe612 37442 icon@2x.png
+  6390c68b89d5a1b51a1384c5944572e93ca43eba 86508 icon@3x.png
   6480cfd871b4e62d06d2ae6534e5c38cd51d6b88 9836 Assets/icon.png
   e49ca25a37af44fdebbc0151a9c1d2ab093fe612 37442 Assets/icon@2x.png
   6390c68b89d5a1b51a1384c5944572e93ca43eba 86508 Assets/icon@3x.png
@@ -36,6 +42,9 @@ SHA256:
   cfee7cee213e71ec42efc79a60bfbd1ef073aa893e10d4cf912b53f20200f6a1 9836 CydiaIcon.png
   9fce8b2ca9fb11cb384e6b7dee3c843bae5accf7842c5e41f45276c24b1976f8 37442 CydiaIcon@2x.png
   8d5aeb2f474cb1eca4022f215fd6fd453cfe38c4cfa480ab5fd61085f096a06e 86508 CydiaIcon@3x.png
+  cfee7cee213e71ec42efc79a60bfbd1ef073aa893e10d4cf912b53f20200f6a1 9836 icon.png
+  9fce8b2ca9fb11cb384e6b7dee3c843bae5accf7842c5e41f45276c24b1976f8 37442 icon@2x.png
+  8d5aeb2f474cb1eca4022f215fd6fd453cfe38c4cfa480ab5fd61085f096a06e 86508 icon@3x.png
   cfee7cee213e71ec42efc79a60bfbd1ef073aa893e10d4cf912b53f20200f6a1 9836 Assets/icon.png
   9fce8b2ca9fb11cb384e6b7dee3c843bae5accf7842c5e41f45276c24b1976f8 37442 Assets/icon@2x.png
   8d5aeb2f474cb1eca4022f215fd6fd453cfe38c4cfa480ab5fd61085f096a06e 86508 Assets/icon@3x.png
