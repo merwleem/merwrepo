@@ -7,6 +7,7 @@ Author: Local build
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0)
 Installed-Size: 144
+Filename: ./com.local.ios13volumehud_1.9.4_iphoneos-arm.deb
 Size: 25428
 MD5sum: 81bcd0b677755330a255dab50633c383
 SHA1: 5ae06c08c93a339c82b921fc5bab5a34f131c01e
