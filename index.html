@@ -51,11 +51,11 @@
     position:absolute;top:-46px;left:50%;transform:translateX(-50%);
     width:104px;height:104px;border-radius:50%;
     border:1px solid var(--gold);
-    background:var(--ink);
+    background:radial-gradient(circle at 50% 35%,#7a1637 0%,#3d0a1c 100%);
     box-shadow:0 0 0 5px var(--ink),0 0 0 6px var(--line),0 12px 30px #000a;
     overflow:hidden;z-index:2;
   }
-  .lamb img{width:100%;height:100%;object-fit:cover;display:block}
+  .lamb img{width:100%;height:100%;object-fit:contain;display:block;padding:6px}
 
   .eyebrow{
     text-align:center;color:var(--gold);
@@ -108,7 +108,11 @@
     transition:border-color .18s,background .18s,transform .18s;
   }
   .mgr:hover{border-color:var(--gold);background:#210c15;transform:translateY(-2px)}
-  .mgr svg{width:28px;height:28px;color:var(--gold)}
+  .mgr img{
+    width:34px;height:34px;object-fit:contain;display:block;
+    border-radius:7px;border:1px solid #8e2a48;
+    box-shadow:0 3px 10px #0007;
+  }
 
   .downloads{list-style:none;margin:0;padding:0}
   .downloads li{
@@ -152,7 +156,7 @@
 <body>
 
 <main class="shrine">
-  <div class="lamb"><img src="lamb.svg" alt="Баран"></div>
+  <div class="lamb"><img src="lamb.png" alt="Баран из Cult of the Lamb"></div>
 
   <div class="eyebrow">Тайный источник твиков</div>
   <h1>merwrepo</h1>
@@ -168,15 +172,15 @@
   <div class="label">Добавить источник</div>
   <div class="managers">
     <a class="mgr" href="sileo://source/https://merwleem.github.io/merwrepo/">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M23 7c-2.5-2.4-10-2.6-12.2.3C9 11 14.5 13.2 18.6 14.4c4.1 1.2 7.9 3.3 5.6 7.1-2.2 3.7-10.2 3.9-13.2.9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      <img src="sileo_burgundy.png" alt="Sileo">
       Sileo
     </a>
     <a class="mgr" href="zbra://sources/add/https://merwleem.github.io/merwrepo/">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="5" fill="currentColor"/><g fill="#15060b"><path d="M7 9h18v3H7zM7 15h18v3H7zM7 21h18v3H7z"/></g></svg>
+      <img src="zebra_burgundy.png" alt="Zebra">
       Zebra
     </a>
     <a class="mgr" href="cydia://url/https://cydia.sileo.team/add-source?source=https%3A%2F%2Fmerwleem.github.io%2Fmerwrepo%2F">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 28 9v14l-12 6L4 23V9z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><text x="16" y="22.5" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="currentColor">C</text></svg>
+      <img src="cydia_burgundy.png" alt="Cydia">
       Cydia
     </a>
   </div>
@@ -196,7 +200,10 @@
     <button class="copy" id="copy">Скопировать адрес</button>
   </div>
 
-  <footer>Не приносите в жертву громкость. Приносите свои деби в Cydia.</footer>
+  <footer>
+    Не приносите в жертву громкость. Приносите свои деби в Cydia.<br>
+    <span style="font-size:11px;opacity:.8">built with meow by sqmrak, <a href="https://github.com/sqmrak/meow" target="_blank" rel="noopener">https://github.com/sqmrak/meow</a></span>
+  </footer>
 </main>
 
 <script>
