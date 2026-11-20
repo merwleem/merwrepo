@@ -1,1 +1,218 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>merwrepo — Sileo / Cydia source</title></head><body><h1>merwrepo</h1><p>Source URL (Sileo and Cydia): <code>https://merwleem.github.io/merwrepo/</code></p><h2>Packages</h2><ul><li><a href="com.local.ios13volumehud_1.9.5_iphoneos-arm.deb">iOS13 Volume HUD 1.9.5</a> — rootful iOS 12, arm64</li></ul></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#15060b">
+<title>merwrepo — источник твиков</title>
+<link rel="icon" href="CydiaIcon.png">
+<style>
+  :root{
+    --ink:#15060b;
+    --crypt:#1d0a12;
+    --stone:#e7d8c6;
+    --dim:#9c8490;
+    --wine:#5b1028;
+    --wine-lit:#7a1637;
+    --gold:#c6a463;
+    --line:#47202e;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--ink);
+    color:var(--stone);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+    padding:34px 16px 60px;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:9;opacity:.16;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+  }
+  a{color:inherit}
+
+  .shrine{
+    position:relative;
+    max-width:540px;margin:0 auto;
+    padding:58px 30px 34px;
+    border:1px solid var(--line);
+    background:linear-gradient(180deg,#1d0a12 0%,#17080e 100%);
+  }
+  .shrine::before,.shrine::after{
+    content:"";position:absolute;width:18px;height:18px;
+    border:1px solid var(--gold);opacity:.75;
+  }
+  .shrine::before{top:7px;left:7px;border-right:0;border-bottom:0}
+  .shrine::after{bottom:7px;right:7px;border-left:0;border-top:0}
+
+  .lamb{
+    position:absolute;top:-46px;left:50%;transform:translateX(-50%);
+    width:104px;height:104px;border-radius:50%;
+    border:1px solid var(--gold);
+    background:var(--ink);
+    box-shadow:0 0 0 5px var(--ink),0 0 0 6px var(--line),0 12px 30px #000a;
+    overflow:hidden;z-index:2;
+  }
+  .lamb img{width:100%;height:100%;object-fit:cover;display:block}
+
+  .eyebrow{
+    text-align:center;color:var(--gold);
+    font-size:10px;letter-spacing:.42em;text-transform:uppercase;
+    margin:4px 0 10px;
+  }
+  h1{
+    margin:0;text-align:center;
+    font:400 42px/1 Georgia,"Times New Roman",serif;
+    letter-spacing:.16em;text-transform:uppercase;
+    color:var(--stone);
+    text-shadow:0 2px 0 #000,0 0 26px #7a163755;
+  }
+  .subtitle{
+    text-align:center;color:var(--dim);
+    font:italic 14px/1.5 Georgia,serif;
+    margin:10px 0 0;
+  }
+
+  .rule{display:flex;align-items:center;gap:12px;margin:28px 0}
+  .rule::before,.rule::after{content:"";flex:1;height:1px;background:var(--line)}
+  .rule span{color:var(--gold);font-size:11px;letter-spacing:.3em}
+
+  .tg{
+    display:flex;align-items:center;justify-content:center;gap:12px;
+    width:100%;padding:16px 18px;
+    background:var(--wine);
+    border:1px solid var(--wine-lit);
+    color:#fff;text-decoration:none;
+    font:600 15px/1 Georgia,serif;letter-spacing:.12em;text-transform:uppercase;
+    box-shadow:inset 0 1px 0 #ffffff12,0 8px 22px #0006;
+    transition:background .18s,transform .18s,border-color .18s;
+  }
+  .tg:hover{background:var(--wine-lit);border-color:var(--gold);transform:translateY(-1px)}
+  .tg svg{width:19px;height:19px;flex:none}
+
+  .label{
+    text-align:center;color:var(--dim);
+    font-size:10px;letter-spacing:.34em;text-transform:uppercase;
+    margin:26px 0 12px;
+  }
+  .managers{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .mgr{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;
+    padding:18px 6px 14px;
+    background:#180810;
+    border:1px solid var(--line);
+    color:var(--stone);text-decoration:none;
+    font:12px/1 Georgia,serif;letter-spacing:.14em;text-transform:uppercase;
+    transition:border-color .18s,background .18s,transform .18s;
+  }
+  .mgr:hover{border-color:var(--gold);background:#210c15;transform:translateY(-2px)}
+  .mgr svg{width:28px;height:28px;color:var(--gold)}
+
+  .downloads{list-style:none;margin:0;padding:0}
+  .downloads li{
+    display:flex;align-items:baseline;gap:10px;
+    padding:11px 2px;border-bottom:1px dotted var(--line);
+  }
+  .downloads li::before{content:"◇";color:var(--gold);font-size:11px}
+  .downloads a{
+    color:var(--stone);text-decoration:none;
+    font:14px/1.4 Georgia,serif;letter-spacing:.02em;
+    border-bottom:1px solid #6e3a4a;
+  }
+  .downloads a:hover{color:var(--gold);border-color:var(--gold)}
+  .downloads .meta{margin-left:auto;color:var(--dim);font-size:11px;white-space:nowrap}
+
+  .source{margin-top:28px;text-align:center}
+  .source code{
+    display:inline-block;padding:8px 12px;
+    background:#12050a;border:1px solid var(--line);
+    color:var(--gold);font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+    word-break:break-all;
+  }
+  .copy{
+    display:block;margin:12px auto 0;padding:7px 16px;
+    background:none;border:1px solid var(--line);color:var(--dim);
+    font-size:10px;letter-spacing:.28em;text-transform:uppercase;cursor:pointer;
+  }
+  .copy:hover{color:var(--gold);border-color:var(--gold)}
+
+  footer{
+    margin-top:26px;text-align:center;color:#6d5862;
+    font:italic 12px/1.5 Georgia,serif;
+  }
+  @media(max-width:420px){
+    h1{font-size:32px}
+    .shrine{padding:54px 18px 28px}
+    .mgr{font-size:10px;letter-spacing:.08em}
+  }
+</style>
+</head>
+<body>
+
+<main class="shrine">
+  <div class="lamb"><img src="lamb.svg" alt="Баран"></div>
+
+  <div class="eyebrow">Тайный источник твиков</div>
+  <h1>merwrepo</h1>
+  <p class="subtitle">Сдирай оболочку — внутри окажется громкость.</p>
+
+  <div class="rule"><span>✦</span></div>
+
+  <a class="tg" href="https://t.me/merwleem" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.7 4.3 18.9 19.4c-.2 1-.9 1.3-1.8.8l-4.5-3.3-2.2 2.1c-.3.3-.5.5-1 .5l.4-5.6L18.8 6.2c.4-.4-.1-.6-.6-.3L6.7 13.1 1.6 11.6c-1-.3-1-.9.2-1.4L20.2 3c.9-.3 1.6.2 1.5 1.3z" fill="currentColor"/></svg>
+    Telegram · @merwleem
+  </a>
+
+  <div class="label">Добавить источник</div>
+  <div class="managers">
+    <a class="mgr" href="sileo://source/https://merwleem.github.io/merwrepo/">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M23 7c-2.5-2.4-10-2.6-12.2.3C9 11 14.5 13.2 18.6 14.4c4.1 1.2 7.9 3.3 5.6 7.1-2.2 3.7-10.2 3.9-13.2.9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      Sileo
+    </a>
+    <a class="mgr" href="zbra://sources/add/https://merwleem.github.io/merwrepo/">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="5" fill="currentColor"/><g fill="#15060b"><path d="M7 9h18v3H7zM7 15h18v3H7zM7 21h18v3H7z"/></g></svg>
+      Zebra
+    </a>
+    <a class="mgr" href="cydia://url/https://cydia.sileo.team/add-source?source=https%3A%2F%2Fmerwleem.github.io%2Fmerwrepo%2F">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 28 9v14l-12 6L4 23V9z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><text x="16" y="22.5" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="currentColor">C</text></svg>
+      Cydia
+    </a>
+  </div>
+
+  <div class="rule"><span>◇</span></div>
+
+  <div class="label">Скачать напрямую</div>
+  <ul class="downloads">
+    <li><a href="com.local.ios13volumehud_1.9.5_iphoneos-arm.deb">iOS13 Volume HUD — 1.9.5</a><span class="meta">25 КБ</span></li>
+    <li><a href="com.local.ios13volumehud_1.9.4_iphoneos-arm.deb">iOS13 Volume HUD — 1.9.4</a><span class="meta">25 КБ</span></li>
+    <li><a href="com.local.ios13volumehud_1.9.2_iphoneos-arm.deb">iOS13 Volume HUD — 1.9.2</a><span class="meta">24 КБ</span></li>
+    <li><a href="com.local.ios13volumehud_1.9.1_iphoneos-arm.deb">iOS13 Volume HUD — 1.9.1</a><span class="meta">23 КБ</span></li>
+  </ul>
+
+  <div class="source">
+    <code id="url">https://merwleem.github.io/merwrepo/</code>
+    <button class="copy" id="copy">Скопировать адрес</button>
+  </div>
+
+  <footer>Не приносите в жертву громкость. Приносите свои деби в Cydia.</footer>
+</main>
+
+<script>
+  document.getElementById('copy').addEventListener('click', function(){
+    var t = document.getElementById('url').textContent;
+    if (navigator.clipboard) { navigator.clipboard.writeText(t); }
+    else {
+      var i = document.createElement('textarea'); i.value = t;
+      document.body.appendChild(i); i.select(); document.execCommand('copy');
+      document.body.removeChild(i);
+    }
+    this.textContent = 'Скопировано';
+    var b = this;
+    setTimeout(function(){ b.textContent = 'Скопировать адрес'; }, 1600);
+  });
+</script>
+
+</body>
+</html>
