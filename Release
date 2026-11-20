@@ -1,0 +1,20 @@
+Origin: IOS13VolumeHUD
+Label: IOS13VolumeHUD
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm
+Components: main
+Description: iOS13 Volume HUD Sileo source
+Date: Fri, 20 Nov 2026 08:47:23 UTC
+MD5Sum:
+ 1dadc0e1a4326f8105ec08deae3cc7b7 533 Packages
+ 0623ebb4ea72557d650ff4db67d269d9 384 Packages.gz
+ cd3d01436375fce2ff6983ad4c436068 23476 com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
+SHA1:
+ e6ff413c45b12265ca5a466e9e513f0b76cc2b38 533 Packages
+ dcbaac85d68d2cb967c19de258e264ecf16f8ff1 384 Packages.gz
+ 92e2aae0e8a973fc57b878d4281932c7c6b648d6 23476 com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
+SHA256:
+ 0d4ee57b83cf1f36f934be90fd4857b26e7ed102ac9a117b893967f68016a399 533 Packages
+ bc786a9280ec2aec1e007abedf973388834fdd4817ee6d9d0bb0714ae4ecef33 384 Packages.gz
+ 1a6e1b44141b35cea10e8982ce89fb5f2369bd642b8cb415f5278daf478ec72a 23476 com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
