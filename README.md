@@ -1,27 +1,24 @@
-# IOS13VolumeHUD — Sileo source
+# merwrepo — Sileo source
 
-Источник для твика **iOS 13 Volume HUD** (rootful iOS 12, arm64).
+Общий репозиторий твиков merwleem.
 
-## Добавление в Sileo
-
-Sileo → Sources → Plus → Enter URL:
+## Адрес источника
 
 ```
-https://raw.githubusercontent.com/merwleem/IOS13VolumeHUD/main/
+https://merwleem.github.io/merwrepo/
 ```
 
-Затем обновите источник и установите **iOS13 Volume HUD**.
+Sileo → Sources → `+` → Enter URL → вставить ссылку → обновить.
 
-## Прямая ссылка на пакет
+## Сейчас в репозитории
 
-https://raw.githubusercontent.com/merwleem/IOS13VolumeHUD/main/com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
+- **iOS13 Volume HUD** 1.9.1 — rootful iOS 12, MobileSubstrate, PreferenceLoader, arm64 (A7–A11). [Прямая ссылка на deb](https://merwleem.github.io/merwrepo/com.local.ios13volumehud_1.9.1_iphoneos-arm.deb).
 
-Версия: 1.9.1. Archived: iOS 12, MobileSubstrate, PreferenceLoader, arm64.
+## Как добавить следующий твик
 
-## Содержимое
+1. Положить `.deb` в корень репозитория.
+2. Добавить запись в `Packages` (Package / Name / Version / Architecture / Filename / Size / SHA256 / Description).
+3. Пересобрать `Packages.gz` и обновить контрольные суммы в `Release`.
+4. Запушить — GitHub Pages обновится сам.
 
-- `Packages`, `Packages.gz` — метаданные APT;
-- `Release` — контрольные суммы;
-- `com.local.ios13volumehud_1.9.1_iphoneos-arm.deb` — сам пакет.
-
-Твик собран с meow by sqmrak, https://github.com/sqmrak/meow.
+Пакеты собраны с meow by sqmrak, https://github.com/sqmrak/meow.
