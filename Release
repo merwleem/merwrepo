@@ -1,20 +1,23 @@
-Origin: IOS13VolumeHUD
-Label: IOS13VolumeHUD
+Origin: merwrepo
+Label: merwrepo
 Suite: stable
 Codename: stable
 Architectures: iphoneos-arm
 Components: main
-Description: iOS13 Volume HUD Sileo source
-Date: Fri, 20 Nov 2026 08:47:23 UTC
+Description: merwrepo - Sileo and Cydia source
+Date: Fri, 20 Nov 2026 09:00:33 UTC
 MD5Sum:
  1dadc0e1a4326f8105ec08deae3cc7b7 533 Packages
- 0623ebb4ea72557d650ff4db67d269d9 384 Packages.gz
+ ca359ed5f2825943b94a57018c212d41 384 Packages.gz
+ 0e4f18e501d32ee011f416b93f19b66f 424 Packages.bz2
  cd3d01436375fce2ff6983ad4c436068 23476 com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
 SHA1:
  e6ff413c45b12265ca5a466e9e513f0b76cc2b38 533 Packages
- dcbaac85d68d2cb967c19de258e264ecf16f8ff1 384 Packages.gz
+ bc9b3cbb7038e9bfe10cbf7371d71f71879d0d39 384 Packages.gz
+ d871aef1015405628962dd5990c45dea529638bc 424 Packages.bz2
  92e2aae0e8a973fc57b878d4281932c7c6b648d6 23476 com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
 SHA256:
  0d4ee57b83cf1f36f934be90fd4857b26e7ed102ac9a117b893967f68016a399 533 Packages
- bc786a9280ec2aec1e007abedf973388834fdd4817ee6d9d0bb0714ae4ecef33 384 Packages.gz
+ 45440c47a806f99232d68760817944d1b1ab024f8d83196a923c28616afe13f7 384 Packages.gz
+ 517bd7f1d00685e4bd0cc72fbb9a8ce37e6cde4c43940cd4a8e4aa8eeee88547 424 Packages.bz2
  1a6e1b44141b35cea10e8982ce89fb5f2369bd642b8cb415f5278daf478ec72a 23476 com.local.ios13volumehud_1.9.1_iphoneos-arm.deb
