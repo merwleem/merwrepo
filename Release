@@ -5,19 +5,19 @@ Codename: stable
 Architectures: iphoneos-arm
 Components: main
 Description: merwrepo - Sileo and Cydia source
-Date: Fri, 20 Nov 2026 09:34:45 UTC
+Date: Fri, 20 Nov 2026 09:39:01 UTC
 MD5Sum:
- 84f1a48a2f65989fca2ffe3f7a481c70 471 Packages
- 2351fad2d81153661d79ca49bcbe8f34 363 Packages.gz
- 8b8b44501d253b9f980879b6bc618d04 394 Packages.bz2
+ 02d93299c6a5eeeb85ad602f1c43c8af 531 Packages
+ 88da77821a6b3044ead6c10734176a79 385 Packages.gz
+ d64134219d14fa0e103bfdc75f9c4d3c 426 Packages.bz2
  81bcd0b677755330a255dab50633c383 25428 com.local.ios13volumehud_1.9.4_iphoneos-arm.deb
 SHA1:
- cd8f1d0eff90c6ab7d37a24005238cb5673aa6c8 471 Packages
- 308729daf4c9973c3f5ee9b73135a11d7b65077d 363 Packages.gz
- 178c4c79f7df9ed32d2fae1ed875cdd6b569eb16 394 Packages.bz2
+ 93049c89db20c6d107496963a478b1a3f8520ebb 531 Packages
+ f7dad703fec3287c1aba2ea5cb8db1152379a187 385 Packages.gz
+ fb42d74b4a71662fe4ffa7e0f2c02d712dcad2e2 426 Packages.bz2
  5ae06c08c93a339c82b921fc5bab5a34f131c01e 25428 com.local.ios13volumehud_1.9.4_iphoneos-arm.deb
 SHA256:
- beab97017d8538a28b048e8eabee297a3e1ab43de3fbba579eb53ae61559ba1f 471 Packages
- 21962315e94cbf5d21960becb1e72138caaebf45009c71f26fe3c14f3466d11c 363 Packages.gz
- f42a86ae11ae1885a071a463681575e80f0e67ef2f82324d704f1f243e802df4 394 Packages.bz2
+ 753becd399ab91e88356724e0d08376d9ac079095745523c2594ef257743b5f3 531 Packages
+ d316172900bd3a89d8e868b4dbed160deea9a6f5ce843360ed3d175bd6c403d4 385 Packages.gz
+ b8593bb8ea08d46cb335fbafe0553c66de08040b02b403bcfb8bf5d22dd98402 426 Packages.bz2
  fcc8a0d26cbb05289fcf88b6eed87c286e167b0f8768a4e8918fa12f173fb309 25428 com.local.ios13volumehud_1.9.4_iphoneos-arm.deb
