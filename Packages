@@ -1,15 +1,15 @@
 Package: com.local.ios13volumehud
 Name: iOS13 Volume HUD
-Version: 1.9.4
+Version: 1.9.5
 Architecture: iphoneos-arm
 Maintainer: Local build
 Author: Local build
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0)
 Installed-Size: 144
-Filename: ./com.local.ios13volumehud_1.9.4_iphoneos-arm.deb
-Size: 25428
-MD5sum: 81bcd0b677755330a255dab50633c383
-SHA1: 5ae06c08c93a339c82b921fc5bab5a34f131c01e
-SHA256: fcc8a0d26cbb05289fcf88b6eed87c286e167b0f8768a4e8918fa12f173fb309
+Filename: ./com.local.ios13volumehud_1.9.5_iphoneos-arm.deb
+Size: 25510
+MD5sum: 96f074e532ab161ac459e1996d44bc15
+SHA1: 60d5efd533a4991a869b94d93e43cf2886696fee
+SHA256: 32c9540af52bee05d29bee07976d50f9a51b40492df7fde94811cf07aa3e2d45
 Description: iOS 13 style volume HUD for iOS 12 (arm64)
